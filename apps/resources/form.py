@@ -1,5 +1,10 @@
 from django import forms
 
+# CATEGORIES = [
+#     ('1', 'Programming Language'),
+#     ('2', 'Databases'),
+# ]
+
 class PostResourceForm(forms.Form): 
     title = forms.CharField(widget=forms
                             .TextInput(attrs={
