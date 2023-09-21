@@ -34,7 +34,7 @@ jobs:
         image: postgres:15
         env:
           POSTGRES_USER: ${{ env.DB_USER }}
-          POSTGRES_PWD: ${{ env.DB_PWD }}
+          POSTGRES_PASSWORD: ${{ env.DB_PWD }}
           POSTGRES_DB: ${{ env.DB_NAME }}
         ports:
           - 5432:5432
