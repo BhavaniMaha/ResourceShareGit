@@ -1,9 +1,10 @@
 from django import forms
 
-# CATEGORIES = [
-#     ('1', 'Programming Language'),
-#     ('2', 'Databases'),
-# ]
+CATEGORIES = [
+    ('1', 'Programming Language'),
+    ('2', 'Databases'),
+    ('3', 'Tags'),
+]
 
 class PostResourceForm(forms.Form): 
     title = forms.CharField(widget=forms
