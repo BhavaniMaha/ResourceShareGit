@@ -1,4 +1,5 @@
 from django import forms
+from .models import Tag, Category
 
 CATEGORIES = [
     ('1', 'Programming Language'),
