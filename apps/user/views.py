@@ -33,7 +33,7 @@ def login_view(request):
             
             
             # Authenticate the user, if s, will return user object
-            user: Optional[user] = authenticate(
+            user: Optional[User] = authenticate(
                 username=username,
                 password=password,
             )
@@ -44,7 +44,7 @@ def login_view(request):
                 # when we login, session will store user id
                 # Authentication Middleware is going to use that id
                 # and fetch 
-                request.user
+                #request.user
                 # Redirect the user to his profile page
                 # The url path name
                 return redirect('profile')
