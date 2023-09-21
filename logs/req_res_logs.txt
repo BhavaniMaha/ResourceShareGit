@@ -1,0 +1,310 @@
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.020434 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003472 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] POST | 127.0.0.1:8000/resource/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.017307 >> POST | 127.0.0.1:8000/resource/post/
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.000650 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.001953 >> GET | 127.0.0.1:8000/user/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.014896 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.022340 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012643 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.004357 >> GET | 127.0.0.1:8000/favicon.ico
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.013597 >> GET | 127.0.0.1:8000/resource/post/
+[info] 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/accounts/login/?next=/resource/post/'}
+[info] GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.004000 >> GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003373 >> GET | 127.0.0.1:8000/favicon.ico
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.004203 >> GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003162 >> GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.007732 >> GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.002174 >> GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003265 >> GET | 127.0.0.1:8000/favicon.ico
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.014382 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.008567 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.014343 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.015160 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.000611 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.002349 >> GET | 127.0.0.1:8000/accounts/login/?next=/resource/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.019537 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/login | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003397 >> GET | 127.0.0.1:8000/user/login
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.009426 >> GET | 127.0.0.1:8000/user/login/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.251651 >> POST | 127.0.0.1:8000/user/login/
+[info] 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/profile/'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.000478 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.008765 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.016641 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] POST | 127.0.0.1:8000/resource/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.023800 >> POST | 127.0.0.1:8000/resource/post/
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] POST | 127.0.0.1:8000/resource/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.026014 >> POST | 127.0.0.1:8000/resource/post/
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] POST | 127.0.0.1:8000/resource/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.021814 >> POST | 127.0.0.1:8000/resource/post/
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003592 >> GET | 127.0.0.1:8000/favicon.ico
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] POST | 127.0.0.1:8000/resource/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.028860 >> POST | 127.0.0.1:8000/resource/post/
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.021429 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012290 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.019929 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/list/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.000611 >> GET | 127.0.0.1:8000/user/list/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.007534 >> GET | 127.0.0.1:8000/user/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.017106 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012898 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.009153 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.010879 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/login | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.006732 >> GET | 127.0.0.1:8000/login
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.001955 >> GET | 127.0.0.1:8000/user/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012067 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.004522 >> GET | 127.0.0.1:8000/resource/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.010769 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.007572 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.010776 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.036834 >> GET | 127.0.0.1:8000/admin/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Thu, 14 Sep 2023 12:00:42 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+[info] GET | 127.0.0.1:8000/admin/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.018503 >> GET | 127.0.0.1:8000/admin/resources/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Thu, 14 Sep 2023 12:00:47 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+[info] GET | 127.0.0.1:8000/admin/resources/post | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012430 >> GET | 127.0.0.1:8000/admin/resources/post
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/admin/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.015551 >> GET | 127.0.0.1:8000/admin/user/profile/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.010040 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.008511 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.010865 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.026115 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.017205 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.020783 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resources/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.003746 >> GET | 127.0.0.1:8000/resources/post/
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.010079 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.014555 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.015198 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.016195 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.011401 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.004533 >> GET | 127.0.0.1:8000/favicon.ico
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.008541 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012351 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.013708 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.027242 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.020915 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.028566 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.027189 >> GET | 127.0.0.1:8000/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.019400 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.029551 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.021087 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.013930 >> GET | 127.0.0.1:8000/resource/post/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.019801 >> GET | 127.0.0.1:8000/resource/1
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.044413 >> GET | 127.0.0.1:8000/user/profile/
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.013470 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.017320 >> GET | 127.0.0.1:8000/resource/1
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.024853 >> GET | 127.0.0.1:8000/resource/1
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.018902 >> GET | 127.0.0.1:8000/resource/1
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/2 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.012363 >> GET | 127.0.0.1:8000/resource/2
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.008808 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.014791 >> GET | 127.0.0.1:8000/resource/1
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+[info] EXECUTION TIME 0:00:00.008229 >> GET | 127.0.0.1:8000/user/profile/
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:16:27,663 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:17:41,321 log :: GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:18:28,442 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:44:18,979 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:44:44,447 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 11:18:13,581 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:22:28,654 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:33:55,839 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:33:55,852 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:05:28,071 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:05:28,087 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:12:12,151 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:12:12,167 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:12:12,172 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:12:39,453 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 12:12:52,888 log :: GET | 127.0.0.1:8000/resources/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 12:13:29,437 log :: GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 12:13:43,275 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 12:14:00,335 log :: GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 12:14:00,386 log :: GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 12:19:44,453 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:19:44,466 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:19:44,470 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:19:44,474 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:34:59,946 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:34:59,956 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:34:59,959 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:34:59,961 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
