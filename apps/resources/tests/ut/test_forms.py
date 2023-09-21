@@ -35,4 +35,4 @@ class TestPostResourceForm(TestCase):
         
         #Assert
         #self.assertFalse(form.is_valid())
-        self.assertEqual(form.errors['link'], 'This field is required.')
+        self.assertEqual(form.errors['link'], ['This field is required.'])

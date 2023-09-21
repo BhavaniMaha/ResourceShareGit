@@ -40,7 +40,7 @@ class TestResourcesView(TestCase):
     # unit test 1
     def test_home_page_return_200_status(self):
         response = self.client.get(
-            reverse("home_page"),  # access url using path name
+            reverse("home-page"),  # access url using path name
             HTTP_USER_AGENT="Mozilla/5.0",  # set the user agent
             HTTP_CONTENT_TYPE="text/plain",  # set content type
         )
@@ -53,7 +53,7 @@ class TestResourcesView(TestCase):
 
         # Act
         response = self.client.get(
-            reverse("home_page"),  # access url using path name
+            reverse("home-page"),  # access url using path name
             HTTP_USER_AGENT="Mozilla/5.0",  # set the user agent
             HTTP_CONTENT_TYPE="text/plain",  # set content type
         )
@@ -67,7 +67,7 @@ class TestResourcesView(TestCase):
 
         # Act
         response = self.client.get(
-            reverse("home_page"),  # access url using path name
+            reverse("home-page"),  # access url using path name
             HTTP_USER_AGENT="Mozilla/5.0",  # set the user agent
             HTTP_CONTENT_TYPE="text/plain",  # set content type
         )
