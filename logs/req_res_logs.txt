@@ -326,3 +326,8 @@ INFO 2023-09-21 12:19:15,665 log :: GET | testserver/ | text/plain | Mozilla/5.0
 INFO 2023-09-21 12:19:15,891 log :: GET | testserver/ | text/plain | Mozilla/5.0
 INFO 2023-09-21 12:19:16,007 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
 INFO 2023-09-21 12:19:16,236 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-21 12:24:07,315 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 12:24:07,433 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 12:24:07,664 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 12:24:07,779 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-21 12:24:08,009 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
