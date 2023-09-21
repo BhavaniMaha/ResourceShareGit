@@ -38,7 +38,10 @@ jobs:
           POSTGRES_DB: ${{ env.DB_NAME }}
         ports:
           - 5432:5432
-        #options: >-
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-retries 4
 
 
 
